@@ -2,7 +2,6 @@
 
 ## Contas com KYC rejeitado
 Foi testado o incidente identificado em relação a criação de contas quando o KYC é inválidado e posteriormente o mesmo passa a ser validado.
-
 #### Status inicial
 ![StatusConta](./arquivos/KYC/1_Status_Conta.png)
 
@@ -14,7 +13,6 @@ Foi testado o incidente identificado em relação a criação de contas quando o
 
 ## Botão 'Validar' criação de chave PIX
 Foi concluído os testes em relação ao botão 'Validar' disponivel no processo de criação de chave quando esse não é concluído.
-
 #### Chave à validar
 ![Validar](./arquivos/validar.jpg)
 
@@ -24,7 +22,6 @@ Foi concluído os testes em relação ao botão 'Validar' disponivel no processo
 ## Ícones incorretos
 Foi realizado teste em relação aos icones das transações que não estavam sendo apresentadas.</br>
 Porém, conforme avaliado em refinamento, esta situação pode ser decorrente de cache onde cabe uma Spike para uma melhor avaliação.
-
 #### Ícone do PIX
 ![Pix](./arquivos/Screenshot_27.png)
 
@@ -70,9 +67,10 @@ Testada a implementação que visa limitar a quantidade de caracteres para o nom
 
 ## Gravar eventos no banco de dados
 Foi testado a implementação/correção da US que visava implementar a gravação dos dados de emissão/pagamento de boletos do bankslip.
-
+#### Emissão de Boleto
 ![EmissãoBoleto](./arquivos/emissaoBoletoBanco.png)
 
+#### Pagamernto de boleto
 ![PagamentoBoleto](./arquivos/pagamentoBoletoBanco.png)
 
 ## Tela de login indevida
@@ -90,7 +88,7 @@ Ao confirmar os dados para transferência PIX estava sendo apresentado o campo '
 
 ![Nickname](./arquivos/nickname.png)
 
-## Bloqueio de pagamento de guia iniciada em 81/85
+## Bloqueio de pagamento de guia iniciada em 81/85 IBK
 Foi reimplementado o bloqueio no FE para impedir o pagamento de guias de impostos iniciados em 81/85
 #### Guia iniciada em 81
 ![Guia81](./arquivos/guia81.png)
@@ -98,14 +96,69 @@ Foi reimplementado o bloqueio no FE para impedir o pagamento de guias de imposto
 #### Guia iniciada em 85
 ![Guia85](./arquivos/guia85.png)
 
-#### Guia com inicio diferente de 81/85
-![GuiaDiferente](./arquivos/guiaDiferente.png)
+### Bloqueio de pagamento de guia iniciada em 81/85 App
+Também foi realizada a mesma implementação nos app's
+#### Guia iniciada em 81 - iOS
+![Pagto81ios](./arquivos/pagto81ios.jpg)
+
+#### Guia iniciada em 85 - iOS
+![Pagto85ios](./arquivos/pagto85ios.jpg)
+
+#### Guia iniciada em 81 - Android
+![Pagto81android](./arquivos/pagto81android.png)
+
+#### Guia iniciada em 85 - Android
+![Pagto85android](./arquivos/pagto85android.png)
 
 ## Descrição das trasferências P2P no IBK
 Foi realizado testes em relação ao tratamento da descrição da movimentação de transferências P2P no IBK para que fossem apresentadas como 'Transferência enviada' e 'Transferência recebida'.
-
 #### Transferência enviada
 ![TransfEnviada](./arquivos/transfEnviada.png)
 
 #### Transferência recebida
 ![TransfRecebida](./arquivos/transfRecebida.png)
+
+## Comprovante PIX no IBK
+Validada a correção do comprovante PIX no IBK onde ao concluir a transação, não estava trazendo os dados corretamente.</br>
+A situação ocorria também ao clicar em 'Compartilhar'.
+#### Comprovante ao concluir transação
+![ComprovantePosOperacao](./arquivos/comprovantePosOperacao.png)
+
+#### Comprovante ao clicar em 'Compartilhar'
+![ComprovanteCompartilhar](./arquivos/comprovanteCompartilhar.png)
+
+## Ociosidade/Demora na transferência P2P
+Ao realizar uma transferência P2P cadastrando um novo favorecido o sistema apresentava uma ociosidade/demora no processo de cadastro do favorecido e ao concluir a transferência, os dados no comprovante não eram gerados corretamente.
+#### Android
+![TransfP2P](./arquivos/transfCNPJ.gif)
+
+#### iOS
+![Comprovante](./arquivos/comprovante.JPG)
+
+## Opções ocultas no cadastro de favorecido
+Os campos de 'Conta' e 'Digito' não deverão estar visiveis ao usuário no cadastro de favorecidos.
+
+![CadastroFavorecido](./arquivos/cadastroFavorecido.png)
+
+## Descrição recebimento P2P
+Teste em relação a descrição do recebimento P2P onde trazia indevidamente a descrição 'Você pagou'.
+#### iOS
+![RecebimentoiOS](./arquivos/recebimentoP2P.jpg)
+
+#### Android
+![RecebimentoAndroid](./arquivos/Screenshot-2024-01-20T14-18-21.375Z.png)
+
+## Digitação de Chave PIX
+Foi testado a correção em relação a quebra do texto durante a digitação de uma chave PIX extensa.</br>
+Apesar da correção, melhorando a experiência do cliente, entendo que ainda haja uma diferença de comportamento entre iOS/Android.</br>
+No Android o campo é expandido conforme o usuário digita o email, enquanto no iOS é apresentando sempre as ultimas duas linhas em tela, ou seja, caso o email informado use 3 linhas, a primeira linha será suprimida e apresentada apenas as ultimas 2.
+
+#### Android
+![ChavePixEmailAndroid](./arquivos/chaveEmailAndroid.png)
+
+#### iOS
+![ChavePixEmailIos](./arquivos/chaveEmailIos.jpg)
+
+## Tela de login com loading infinito
+Durante a sprint foi tratado a tela de login com loading infinito, o qual gerou também um bug para esta mesma situação, porém a partir de uma origem distinta.</br>
+Ambas as situações não foram mais reproduzidas em novos testes.
