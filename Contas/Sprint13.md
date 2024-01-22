@@ -73,11 +73,6 @@ Foi testado a implementação/correção da US que visava implementar a gravaç�
 #### Pagamernto de boleto
 ![PagamentoBoleto](./arquivos/pagamentoBoletoBanco.png)
 
-## Tela de login indevida
-Os app apresentavam a tela de login com loading infinito em algumas situações, como no fluxo P2P, Pagamento de Contas.
-
-Essa US gerou retorno, pois foi possível gerar a tela de login em outras situações.
-
 ## Internal Server na transferência PIX
 Ao realizar uma transferência PIX estava sendo realizada uma requisição para o endpoint pix-transfer-return-reasons que retornava 500, porém, se tratava de uma requisição indevida neste momento.
 
