@@ -148,17 +148,6 @@ Teste em relação a descrição do recebimento P2P onde trazia indevidamente a 
 #### Android
 ![RecebimentoAndroid](./arquivos/Screenshot-2024-01-20T14-18-21.375Z.png)
 
-## Digitação de Chave PIX
-Foi testado a correção em relação a quebra do texto durante a digitação de uma chave PIX extensa.</br>
-Apesar da correção, melhorando a experiência do cliente, entendo que ainda haja uma diferença de comportamento entre iOS/Android.</br>
-No Android o campo é expandido conforme o usuário digita o email, enquanto no iOS é apresentando sempre as ultimas duas linhas em tela, ou seja, caso o email informado use 3 linhas, a primeira linha será suprimida e apresentada apenas as ultimas 2.
-
-#### Android
-![ChavePixEmailAndroid](./arquivos/chaveEmailAndroid.png)
-
-#### iOS
-![ChavePixEmailIos](./arquivos/chaveEmailIos.jpg)
-
 ## Tela de login com loading infinito
 Durante a sprint foi tratado a tela de login com loading infinito, o qual gerou também um bug para esta mesma situação, porém a partir de uma origem distinta.</br>
 Ambas as situações não foram mais reproduzidas em novos testes.
