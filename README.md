@@ -5,7 +5,7 @@ Este repositório tem como finalidade, disponibilizar e permitir o acompanhament
 Visto a atuação em duas squads, será possível acompanhar os testes através de suas respectivas pastas:</br>
 
 #### Plataforma
-- [Sprint12](./Plataforma/Apresentação.md)</br>
+- [Sprint12](./Plataforma/Sprint12.md)</br>
 
 #### Contas
 - [Sprint12](./Contas/Sprint12.md)
