@@ -145,4 +145,25 @@ Teste em relação a descrição do recebimento P2P onde trazia indevidamente a 
 
 ## Tela de login com loading infinito
 Durante a sprint foi tratado a tela de login com loading infinito, o qual gerou também um bug para esta mesma situação, porém a partir de uma origem distinta.</br>
-Ambas as situações não foram mais reproduzidas em novos testes.
+Ambas as situações não foram mais reproduzidas em novos testes.</br>
+
+## Comprovante PIX
+Ao realizar movimentações de PIX, o sistema não apresentava os dados no comprovante de transação.</br>
+Apesar da correção, foi verificado que ainda poderá haver casos onde fica incorreto, devido a um timeout que é de 8 segundos hoje e para esta situação, será tratado em novo card a possibilidade de melhorar este tempo de retorno.</br>
+*Obs.: Este teste foi concluído após a apresentação da Review.*
+
+#### iOS
+![ChavePixIos](./arquivos/chaveCPFiOS.JPG)
+
+#### Android
+![ChavePixAndroid](./arquivos/chaveCPFAndroid.png)
+
+## Erro desconhecido ao inserir código incorreto
+Ao informar um SMS de autenticação incorreto, o sistema estava apresentando mensagem de erro desconhecido e bloqueando a continuidade da autenticação da chave com o reenvio de um novo SMS, sendo tratado para apresentar assim uma mensagem adequada indicando se tratar de um código inválido e permitir o reenvio do código.</br>
+*Obs.: Este teste foi concluído após a apresentação da Review.*
+
+#### iOS
+![CódigoInválidoIos](./arquivos/codigoInvalidoIos.png)
+
+#### Android
+![CódigoInválidoAndroid](./arquivos/codigoInvalidoAndroid.png)
