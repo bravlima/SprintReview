@@ -8,6 +8,7 @@ Visto a atuação em duas squads, será possível acompanhar os testes através 
 - [Sprint12](./Plataforma/Sprint12.md)</br>
 - [Sprint16](./Plataforma/Sprint16.md)</br>
 - [Sprint17s](./Plataforma/Sprint17s.md)</br>
+- [Sprint18s](./Plataforma/Sprint18s.md)</br>
 
 #### Contas
 - [Sprint12](./Contas/Sprint12.md)
