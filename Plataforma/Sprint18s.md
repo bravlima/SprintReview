@@ -26,3 +26,8 @@ Foi realizado o teste que visava validar a implementação do endpoint '/person/
 
 #### Relacionamento no banco de dados
 ![Create](./arquivos/Screenshot_59.png)
+
+## Mensagem de erros desconhecidos
+Foi realizado teste em relação a implementação da tela que visa notificar o usuário quanto a erros desconhecidos do backend.
+
+![Notification](./arquivos/Screenshot_63.png)
