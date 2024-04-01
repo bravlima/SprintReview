@@ -17,3 +17,12 @@ Foi testado a implementação dos filtros de documentType e documentNumber no en
 Testada a implementação que visa a criação da party na requisição de create person/organization.
 
 ![DocumentNumber](./arquivos/Screenshot_50.png)
+
+### Criação do relationship
+Foi realizado o teste que visava validar a implementação do endpoint '/person/:personId/relationship/organizations', que possui como finalidade criar o relacionamento entre Person e Organization.
+
+#### Criação do relacionamento
+![Create](./arquivos/Screenshot_66.png)
+
+#### Relacionamento no banco de dados
+![Create](./arquivos/Screenshot_59.png)
