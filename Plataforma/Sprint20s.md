@@ -11,7 +11,7 @@ Na sprint passada durante os testes no endpoint de download de arquivo foi ident
 *Ref*.: [US_630580](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/630580)
 
 ### Registro de Device
-Testada a implementação que visa criar o registro de device para controle de permissão/acesso.
+Testada a implementação que visa criar o registro de device para controle de permissão/acesso.</br>
 *Ref*.: [US_629946](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/629946)
 
 ![CriaçãoDevice](./arquivos/Screenshot_39.png)
