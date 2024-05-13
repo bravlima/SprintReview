@@ -36,3 +36,7 @@ Testada a implementação para validação do token enviado via SMS e e-mail par
 Foi feito testes quanto a implementação que permite o registro de senha e finalização do cadastro de usuários no SuperApp.</br>
 ![Success](./arquivos/Screenshot_41.png)</br>
 *Ref*.: [US_603980](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/603980)
+
+## Automação Apoio para Testes do Deploy
+Foi iniciado uma automação que visa apoiar o QA alocado ao teste deploy, esta automação tem como finalidade acessar todas as telas que são validadas pelo QA, gravando a ação e tirando prints enquanto o QA segue com os testes mobile.</br>
+Essa automação tem como finalidade apenas agilizar o processo, de forma a economizar tempo gasto e permitirá ao QA avaliar através das imagens geradas se todos os processos ocorreram de forma adequada.
