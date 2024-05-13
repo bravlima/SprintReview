@@ -31,3 +31,8 @@ Realização de teste em relação ao endpoint que visa o envio de *e-mail* e *S
 ### Validação de Token - Meu Negócio
 Testada a implementação para validação do token enviado via SMS e e-mail para o projeto do 'Meu Negócio'.</br>
 *Ref*.: [US_635466](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/635466)
+
+### Criação de Senha - SuperApp
+Foi feito testes quanto a implementação que permite o registro de senha e finalização do cadastro de usuários no SuperApp.</br>
+![Success](./arquivos/Screenshot_41.png)</br>
+*Ref*.: [US_603980](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/603980)
