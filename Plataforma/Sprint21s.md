@@ -19,8 +19,8 @@ Foi testada a implementação no party-service que visa autenticar o usuário, v
 *Ref*.: [US_635993](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/635993)
 
 ### Envio de Token - Meu Negócio
-Realização de teste em relação ao endpoint que visa o envio de *e-mail* e *SMS* para autenticação de device, para o meu escritório.</br>
-*Ref*.: [US_635993](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/635993)
+Realização de teste em relação ao endpoint que visa o envio de *e-mail* e *SMS* para autenticação de device.</br>
+*Ref*.: [US_635447](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/635447)
 
 #### SMS
 ![SMS](./arquivos/sms_negocio.jpg)
