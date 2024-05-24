@@ -20,26 +20,26 @@ Validada a implementação que implementou o endpoint de reenvio do token.</br>
 
 ![ResendToken](./arquivos/Screenshot_63(1).png)
 
-### Login no SuperApp
+### Login no SuperApp - Meu Escritório / Meu Negócio
 Teste realizado na tela de login do SuperApp conectando ao BE, permitindo o login tanto do 'Meu Escritório' e 'Meu Negócio'</br>
 *Ref*.: [US_604004](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/604004)
 
-### Testes Gerais iOS
+### Testes Gerais iOS - Meu Escritório / Meu Negócio
 Testes gerais no fluxo de criação de conta e login de forma a fazer uma avaliação geral do estado do SuperApp no iOS</br>
 *Ref*.: [US_641644](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/641644)
 
-### Card automação de lançamentos
+### Card automação de lançamentos - Meu Escritório / Meu Negócio
 Teste em relação a implementação do componente 'Automatize seus lançamentos' na home do SuperApp.</br>
 *Ref*.: [US_635842](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/635842)
 
 ![AutomatizeLancamentos](./arquivos/Screenshot_109.png)
 
-### Menu de + Mais ações
+### Menu de + Mais ações - Meu Escritório / Meu Negócio
 Testada a implementação do menu de '+ Mais ações'.</br>
 *Ref*.: [US_635838](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/635838)
 
 ![MaisAcoes](./arquivos/maisacoes.gif)
 
-### Atualização Token JWT
+### Atualização Token JWT - Party Service
 Testada a implementação que visava trazer no token JWT as informações de PersonID e PartyID.</br>
 *Ref*.: [US_641309](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/641309)
