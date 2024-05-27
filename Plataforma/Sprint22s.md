@@ -43,3 +43,5 @@ Testada a implementação do menu de '+ Mais ações'.</br>
 ### Atualização Token JWT - Party Service
 Testada a implementação que visava trazer no token JWT as informações de PersonID e PartyID.</br>
 *Ref*.: [US_641309](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/641309)
+
+![TokenJWT](./arquivos/Screenshot_124.png)
