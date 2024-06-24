@@ -1,4 +1,4 @@
-# Sprint 22s
+# Sprint 23s
 
 ### Atualização Playwright
 Atualizado a versão do Playwright e implementado tag para iniciar a automação do novo IBK separando do atual e permitir o encerramento do mesmo futuramente.</br>
