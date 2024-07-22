@@ -6,21 +6,21 @@ Testes realizados no migration service na etapa que visa transferir os dados de 
 
 *Ref*.: [US_657546](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/657546)
 
-![FavoredContact](image.png)
+![FavoredContact](./arquivos/image.png)
 
 ### Desativar acesso ao ambiente legado
 Testado o bloqueio de acesso ao ambiente legado no processo de migração.
 
 *Ref*.: [US_645894](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/645894)
 
-![AccessBlocked](image-1.png)
+![AccessBlocked](./arquivos/image-1.png)
 
 ### Registro de Endereço
 Testada a implementação que transfere os dados de endereço do ambiente legado para o superApp.
 
 *Ref*.: [US_653270](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/653270)
 
-![Address](image-2.png)
+![Address](./arquivos/image-2.png)
 
 ## BFF
 ### Endpoint para verificação existência de PIN
