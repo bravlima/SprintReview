@@ -7,7 +7,7 @@ Testes realizados no migration service no fluxo completo de contas CNPJ
 *Ref*.: [US_614706](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/614706)
 
 ## BUGs
-### PIN Vinculado à PartyId incorreta
+### PIN vinculado à PartyId incorreta
 Identificado e tratado o BUG em que estava sendo vinculado PIN ao partyId incorreto em contas CNPJ migradas.
 
 *Ref*.: [US_661276](https://dev.azure.com/tr-ggo/TR%20Fintech/_workitems/edit/661276)
